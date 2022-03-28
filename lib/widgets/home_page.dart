@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_custom_paint/custom_layout/custom_layout.dart';
 import 'package:flutter_custom_paint/custom_painter/custom_painter_demo.dart';
 
 class HomePage extends StatelessWidget{
@@ -7,7 +8,7 @@ class HomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: CustomPainterDemo(),
+      body: CustomLayout(),
     );
   }
 
